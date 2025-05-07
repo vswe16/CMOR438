@@ -2,7 +2,7 @@ import numpy as np
 from airbnb_pricing_package.neural_network_pricer import NeuralNetworkPricer
 
 def test_neural_network_predict():
-    # Simple regression test
+    # regression test
     X = np.array([[1], [2], [3], [4], [5]])
     y = np.array([100, 150, 200, 250, 300])
 
